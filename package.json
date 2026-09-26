@@ -1,10 +1,13 @@
 {
   "name": "@quarantine-lab/color-helper",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "SIMULATED MALWARE FIXTURE for the Detonation Chamber demo. Benign. Never published to npm.",
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "postinstall": "node scripts/setup.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PRS121/color-helper.git"
